@@ -1,8 +1,7 @@
-- id: clang-format
-  name: clang-format
+- id: git-clang-format
+  name: git-clang-format
   description: clang-format your C, C++, or C# code
-  entry: clang-format
-  args: [-style=file, -i]
+  entry: git clang-format
   language: python
   types_or: [c++, c, c#, cuda]
   minimum_pre_commit_version: 2.9.2

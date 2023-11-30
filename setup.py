@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(
-    name="clang-format-precommit-dummy",
+    name="git-clang-format-precommit-dummy",
     version="0.0.0",
-    install_requires=["clang-format==16.0.2"]
+    install_requires=["clang-format==15.0.7"]
 )
